@@ -3,6 +3,7 @@
           package="info.osom.droidconcd">
 
     <application
+            android:name=".MyApplication"
             android:allowBackup="true"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/app_name"
@@ -16,6 +17,13 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <meta-data
+                android:name="io.fabric.ApiKey"
+                android:value="86a6ab1f18d0118adf25fc4f5157aa8e15f221a0"
+                />
+
+        <uses-permission android:name="android.permission.INTERNET" />
     </application>
 
 </manifest>
