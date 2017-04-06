@@ -1,2 +1,11 @@
 language: android
 jdk: oraclejdk8 #build-tools using Java 8 from 23.x(?) versions
+
+android:
+  components:
+    - tools
+    - platform-tools
+    - build-tools-25.0.2
+    - android-25
+    - extra-android-m2repository
+    - sys-img-armeabi-v7a-android-21
